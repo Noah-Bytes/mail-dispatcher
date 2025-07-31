@@ -6,8 +6,7 @@ Content-Type: application/json
   "address": "your-email@example.com",
   "username": "your-email@example.com", 
   "password": "your-password",
-  "server": "imap.example.com:993",
-  "settings": "{\"enable_ssl\": true}"
+  "server": "imap.example.com:993"
 }
 
 ### 获取所有邮箱账户
