@@ -1,0 +1,34 @@
+### 创建邮箱账户
+POST http://localhost:8080/api/v1/accounts
+Content-Type: application/json
+
+{
+  "address": "your-email@example.com",
+  "username": "your-email@example.com", 
+  "password": "your-password",
+  "server": "imap.example.com:993",
+  "settings": "{\"enable_ssl\": true}"
+}
+
+### 获取所有邮箱账户
+GET http://localhost:8080/api/v1/accounts
+
+### 获取指定邮箱账户
+GET http://localhost:8080/api/v1/accounts/1
+
+### 更新邮箱账户
+PUT http://localhost:8080/api/v1/accounts/1
+Content-Type: application/json
+
+{
+  "address": "updated-email@example.com",
+  "username": "updated-email@example.com",
+  "password": "new-password",
+  "server": "imap.example.com:993"
+}
+
+### 删除邮箱账户
+DELETE http://localhost:8080/api/v1/accounts/1
+
+### 切换账户状态
+PATCH http://localhost:8080/api/v1/accounts/1/toggle 
