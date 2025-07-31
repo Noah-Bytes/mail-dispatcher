@@ -1,0 +1,10 @@
+GET {{host}}/api/v1/targets
+
+###
+POST {{host}}/api/v1/targets
+Content-Type: application/json
+
+{
+  "name": "Noah",
+  "email": "yangchen.xiyou@gmail.com"
+}

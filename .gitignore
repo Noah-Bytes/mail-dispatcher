@@ -1,0 +1,44 @@
+# 二进制文件
+mail-dispatcher
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 环境变量文件
+.env
+.env.local
+.env.production
+.env.test
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 依赖目录
+vendor/
+
+# 构建目录
+build/
+dist/
+
+# 覆盖率报告
+coverage.out
+coverage.html 
